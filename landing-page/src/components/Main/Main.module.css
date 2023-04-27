@@ -72,3 +72,14 @@
     padding-top: 20px;
     font-size: 20px;
 } 
+
+.formacao img, .tecnologias img, .projetos img{
+    height: 50px;
+}
+
+.projetos p:hover{
+    transform: scale(1.2);
+    transition-duration: .4s;
+    transition: .3;   
+    color: red;
+}
