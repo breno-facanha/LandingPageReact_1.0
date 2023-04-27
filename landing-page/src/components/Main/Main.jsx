@@ -1,6 +1,5 @@
 import styles from './Main.module.css'
 import photoBreno from '../../assets/breno.png'
-import photoGitHub from '../../assets/github.png'
 import photoGraduate from '../../assets/graduate.png'
 import photoProject from '../../assets/project.png'
 import photoList from '../../assets/list.png'
@@ -9,7 +8,7 @@ export default function Main(){
     return (
         <div className={styles.main}>
             <div className={styles.QuemSouEu}>
-                <div className="nomeDev">
+                <div className={styles.nomeDev}>
                     <p>Olá seja bem vindo{'(a)'}!</p> 
                     <p>Me Chamo: Breno Façanha.</p>  
                     <p>Sou estudante de desenvolvimento web</p>    
