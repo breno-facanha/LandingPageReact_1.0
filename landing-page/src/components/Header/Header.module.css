@@ -1,0 +1,16 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+
+    background-image: linear-gradient(to bottom, #0f70ee,  #22A2F2, #2ECEF2);
+    height: 10vh;
+}
+
+.cabecalho a{
+    color: white;
+    text-decoration: none;
+    margin-left: 5rem;
+    font-size: 1.6rem;
+}
