@@ -1,4 +1,10 @@
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background-color: rgb(44, 40, 40);
+  color: aliceblue;
+  height: 100vh;
 }
