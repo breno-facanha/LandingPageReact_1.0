@@ -1,0 +1,22 @@
+.contatos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-image: linear-gradient(to bottom, #2ECEF2, #22A2F2, #0f70ee);
+    height: 10vh;
+}
+
+.contatos a{
+    transition: all 0.5s ease-out;
+}
+
+.contatos a:hover{
+    transform: scale(1.5);
+    transition-duration: .5s;
+    transition: .3;   
+}
+
+.contatos img {
+    width: 35px;
+}
