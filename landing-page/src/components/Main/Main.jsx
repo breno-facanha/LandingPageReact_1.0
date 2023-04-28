@@ -10,6 +10,7 @@ export default function Main(){
             <div className={styles.QuemSouEu}>
                 <div className={styles.nomeDev}>
                     <p>Olá seja bem vindo{'(a)'}!</p> 
+                    <br/>
                     <p>Me Chamo: Breno Façanha.</p>  
                     <p>Sou estudante de desenvolvimento web</p>    
                 </div>

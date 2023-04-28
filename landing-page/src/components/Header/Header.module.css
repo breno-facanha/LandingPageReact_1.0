@@ -2,16 +2,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    align-content: space-around;
+    align-content: space-between;
 
     background-image: linear-gradient(to bottom, #0f70ee,  #22A2F2, #2ECEF2);
     height: 10vh;
+    
 }
 
 .cabecalho a{
     color: white;
     text-decoration: none;
-    margin-left: 5rem;
+    margin: 10rem;
     font-size: 1.6rem;
+
+   
+    transition: all 0.5s ease-out;
 }
 
+.cabecalho a:hover{
+    transform: scale(1.1);
+    transition-duration: .4s;
+    transition: .3;
+}
