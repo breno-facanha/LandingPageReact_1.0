@@ -87,3 +87,49 @@
     transition: .3;   
     color: red;
 }
+
+@media (max-width: 1320px){
+    .cards div {
+        width: 300px;
+        
+    }
+}
+
+@media (max-width: 1050px){
+    .QuemSouEu .imgBreno img {
+        height: 250px;
+    }
+
+    .cards div {
+        width: 230px;
+    }
+}
+
+@media (max-width: 900px){
+
+    .main{
+        height: 1400px;
+    }
+    .QuemSouEu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nomeDev{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .cards div{
+        width: 400px;
+        height: 270px;
+    }
+}
