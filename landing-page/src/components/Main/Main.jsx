@@ -12,7 +12,7 @@ export default function Main(){
                     <p>Olá seja bem vindo{'(a)'}!</p> 
                     <br/>
                     <p>Me Chamo: Breno Façanha.</p>  
-                    <p>Sou estudante de desenvolvimento web</p>    
+                    <p>Sou estudante de desenvolvimento full stack</p>    
                 </div>
 
                 <div className={styles.imgBreno}>
@@ -25,6 +25,7 @@ export default function Main(){
                     <img src={photoGraduate} alt="" />
                     <span>FORMAÇÃO</span>
                     <p>ANALISE E DESENVOLVIMENTO DE SISTEMAS</p>
+                    <p>DENSENVOLVIMENTO FULL STACK - <span> EM PROGRESSO ...</span></p>
                 </div>
 
                 <div className={styles.tecnologias}>
@@ -34,6 +35,7 @@ export default function Main(){
                     <p>CSS</p>
                     <p>JAVASCRIPT</p>
                     <p>REACTJS</p>
+                    <p>NODEJS</p>
                 </div>
 
                 <div className={styles.projetos}>
@@ -42,6 +44,7 @@ export default function Main(){
                     <a href="https://breno-facanha.github.io/projeto-explorer-013/" target="__blank"><p>FOCUS TIMER</p></a>
                     <a href="#"><p>LANDING-PAGE</p></a>
                     <a href="https://breno-facanha.github.io/Suporte-Fribal/" target="__blank"><p>SUPORTE</p></a>
+                    <a href="https://github.com/breno-facanha/To-do-list-com-Nodejs" target="__blank"><p>TO DO LIST - <span>em desenvolvimento</span></p></a>
                 </div>
             </div>
         </div>

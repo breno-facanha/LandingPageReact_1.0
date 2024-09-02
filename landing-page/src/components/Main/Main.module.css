@@ -81,10 +81,20 @@
     height: 50px;
 }
 
+.projetos a span {
+    font-size: 15px;
+    color: red;
+}
+
 .projetos p:hover{
     transform: scale(1.2);
     transition-duration: .4s;
     transition: .3;   
+    color: red;
+}
+
+.formacao p span {
+    font-size: 15px;
     color: red;
 }
 
@@ -130,6 +140,10 @@
     }
     .cards div{
         width: 400px;
-        height: 270px;
+        height: 300px;
+    }
+
+    .main {
+        height: 1500px;
     }
 }
